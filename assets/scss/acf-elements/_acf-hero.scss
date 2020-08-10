@@ -1,0 +1,28 @@
+#hero{
+    width: 100vw;
+    #hero-wrap{
+        position: relative;
+        #logo{
+            height: 100%;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: left;
+            position: absolute;
+        }
+        a{
+            position: absolute;
+            img{
+                width: 340px;
+                height: 340px;
+            }
+        }
+        #hero-image{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-top: 25%;
+            width: 100%;
+        }
+    }
+}

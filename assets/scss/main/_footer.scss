@@ -1,0 +1,41 @@
+#footer-wrapper{
+    width: 100vw;
+    #footer-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        height: 150px;
+        #contact-box{
+            font-family: $mainfont;
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            #emailaddress{
+                a{
+                    text-decoration: none;
+                    color: $textblack;
+                }
+            }
+            #phonenumber{
+                a{
+                    text-decoration: none;
+                    color: $textblack;
+                }
+            }
+        }
+        #socialmedia{
+            a{
+                #social-image{
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+
+    }
+}
